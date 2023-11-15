@@ -1,0 +1,32 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+.color-picker {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      flex-direction: column;
+}
+.color-area {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+}
+
+#color {
+      height: 50px;
+      width: 150px;
+     
+     border: none;
+     outline: none;
+}
+#bgColor {
+      height: 400px;
+      width: 500px;
+      margin: 20px;
+      cursor: pointer;
+}
